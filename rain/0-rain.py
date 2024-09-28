@@ -5,6 +5,7 @@ with unit width 1, as if viewing the cross-section of a relief map,
 calculate how many square units of water will be retained after it rains
 """
 
+
 def rain(walls):
     if not walls or len(walls) < 3:
         return 0
